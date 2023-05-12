@@ -12,13 +12,15 @@ const TimerForm = ({ onNewTimer }) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
+      className='input1'
         type="number"
         value={duration}
         onChange={(event) => setDuration(event.target.value)}
-        placeholder="Enter duration in seconds"
+        // placeholder=""
         required
       />
-      <button type="submit">Add Timer</button>
+      <br />
+      <button className='btn1' type="submit">Add</button>
     </form>
   );
 };

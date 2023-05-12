@@ -22,7 +22,7 @@ const Timer = ({ startTime, duration, onDelete }) => {
     <div>
       <div>{moment(startTime).format('DD/MM/YYYY HH:mm:ss')}</div>
       <div>{(remainingTime / 1000).toFixed(2)}</div>
-      <button onClick={onDelete}>Delete</button>
+      <button className='btn2' onClick={onDelete}>Delete</button>
     </div>
   );
 };

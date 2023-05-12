@@ -14,5 +14,41 @@ code {
 
 .App{
   margin-top: 250px;
-  margin-left: 42%;
+  margin-left: 42%; 
+  display: flex;
+}
+.btn1{
+  background-color: #d6dbd6;
+  margin-left: 15px;
+  border: none;
+  color: black;
+  padding: 15px 84px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn2{
+  background-color: #d6dbd6;
+  border: none;
+  margin-left: 15px;
+  color: black;
+  padding: 15px 40px;
+  margin-top: 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.input1{
+  margin-bottom: 30px;
+  margin-left: 15px;
+  background-color: #d6dbd6;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
